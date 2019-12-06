@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML simply means meaningful HTML. It is a way to keep a universally understood set of tags, that have names that refer to what they are wrapping. An example would be a <heading> tag which refers to the heading of a webpage, a <footer> tag which refers to the footing of a webpage, and a <section> tag that refers to a section of a webpage.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    1. display:block- always start fresh on a new line while display:inline does not start on a new line.
+	2. display:block takes up the full width of the space it is in, while display:inline takes up only as much width as necessary.
+
 
 3. What are the 4 areas of the box model?
 
+    Content, padding, border, margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    align-items:center works on the cross axis, which in vector terms is the Y axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Multiple developers can be working on the same code at the same time. Git allows developers to implement new code changes quite easily, merging it with other existing code. It provides a centralized, cloud-based location to store, share, publish, test and collaborate on web development projects. Git also offers branches, which makes collaborating and incrementally adding to code very possible and fullproof.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -100,7 +112,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [x] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
